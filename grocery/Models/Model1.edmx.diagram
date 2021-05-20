@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fd6a69911c8b4debb370079586f6325e" Name="Diagram1">
+        <EntityTypeShape EntityType="KantipurDBModel.tableBanner" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KantipurDBModel.tblBanner" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KantipurDBModel.tblCart" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="KantipurDBModel.tblCategory" Width="1.5" PointX="1.5" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KantipurDBModel.tblOrder" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="KantipurDBModel.tblOrderDetail" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KantipurDBModel.tblProduct" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KantipurDBModel.tblRole" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KantipurDBModel.tbluser" Width="1.5" PointX="5.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KantipurDBModel.tblUserRole" Width="1.5" PointX="8" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="KantipurDBModel.FK_tblCart_tblProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="KantipurDBModel.FK_tblProduct_tblCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="KantipurDBModel.FK_tblOrder_tblOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="KantipurDBModel.FK_tblOrder_tblOrder1" ManuallyRouted="false" />
+        <AssociationConnector Association="KantipurDBModel.FK_tblOrderDetail_tblOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="KantipurDBModel.FK_tblOrderDetail_tblProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="KantipurDBModel.FK_tblUserRole_tblRole" ManuallyRouted="false" />
+        <AssociationConnector Association="KantipurDBModel.FK_tblUserRole_tbluser" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
